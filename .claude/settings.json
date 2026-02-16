@@ -12,16 +12,44 @@
       "mcp__chrome-devtools__*",
       "mcp__claude-in-chrome__*",
       "mcp__playwright__*",
-      "mcp__reddit-mcp-server__get_post_details"
+      "mcp__reddit-mcp-server__get_post_details",
+      "mcp__reddit-mcp-server__search_reddit"
     ],
     "deny": [],
-    "ask": []
+    "ask": [
+      "Bash(rm *)",
+      "Bash(rmdir *)",
+      "Bash(shred *)",
+      "Bash(unlink *)",
+      "Bash(dd *)",
+      "Bash(mkfs *)",
+      "Bash(fdisk *)",
+      "Bash(chmod *)",
+      "Bash(chown *)",
+      "Bash(git *)",
+      "Bash(gh *)",
+      "Bash(npm *)",
+      "Bash(pip *)",
+      "Bash(pip3 *)",
+      "Bash(yarn *)",
+      "Bash(pnpm *)",
+      "Bash(docker *)",
+      "Bash(kubectl *)",
+      "Bash(firebase *)",
+      "Bash(gcloud *)",
+      "Bash(curl *)",
+      "Bash(wget *)",
+      "Bash(kill *)",
+      "Bash(killall *)",
+      "Bash(pkill *)"
+    ]
   },
   "spinnerVerbs": {
     "mode": "replace",
     "verbs": ["Admiring Shayan's code", "Learning from Shayan", "Studying Shayan's patterns", "Copying Shayan's genius", "Thanking Shayan deeply", "Absorbing Shayan's wisdom", "Following Shayan's lead", "Praising Shayan's repo"]
   },
   "plansDirectory": "./reports",
+  "outputStyle": "Explanatory",
   "enableAllProjectMcpServers": true,
   "disableAllHooks": false,
   "hooks": {
