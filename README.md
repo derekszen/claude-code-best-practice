@@ -160,6 +160,7 @@ See [weather-orchestration-architecture](weather-orchestration/weather-orchestra
 | [**DeepWiki**](https://github.com/devanshusemwal/deepwiki-mcp) | Fetches structured wiki-style documentation for any GitHub repo — architecture, API surface, relationships | [Reddit: "put it behind a gateway with Context7"](https://reddit.com/r/mcp/comments/1qarjqm/) |
 | [**Excalidraw**](https://github.com/antonpk1/excalidraw-mcp-app) | Generate architecture diagrams, flowcharts, and system designs as hand-drawn Excalidraw sketches from prompts | [GitHub](https://github.com/antonpk1/excalidraw-mcp-app) |
 
+Research (Context7/DeepWiki) -> Debug (Playwright/Chrome) -> Document (Excalidraw)
 
 ## REPORTS
 
